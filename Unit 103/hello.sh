@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Pick a number"
+echo "Pick a number between 1 and 09 (0-9)
 
 read number
 
@@ -11,4 +11,3 @@ elif [[ $number > 05 ]]; then
 elif [[ $number < 05 ]]; then
 	echo "$number is less than 5"
 fi 
-
