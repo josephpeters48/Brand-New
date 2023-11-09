@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Pick a number between 1 and 09 (0-9)"
+echo "Pick a number"
 
 read number
 
