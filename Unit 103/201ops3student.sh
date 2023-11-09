@@ -1,9 +1,9 @@
-!/bin/bash
+#!/bin/bash
 # Script: Ops 201 Class 03 Ops Challenge Solution
 # Author: Joseph Peters
 # Purpose: Conditonal Statements
 
-echo "Pick a number between 01 and 09 0(0-9)"
+echo "Pick a number between 01 and 09 (0-9)"
 
 read number
 
