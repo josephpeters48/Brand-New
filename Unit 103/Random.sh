@@ -5,7 +5,7 @@ echo "What is your name?"
 read name
 
 guess=$(( $RANDOM % 2 ))
-echo "Enter the secerete number 0 or 1 $name? (0/1)"
+echo "Enter the magic number 0 or 1 $name? (0/1)"
 
 read math
 
