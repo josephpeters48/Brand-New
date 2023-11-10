@@ -5,12 +5,12 @@ echo "What is your name?"
 read name
 
 guess=$(( $RANDOM % 2 ))
-echo "Pick a random number from 0-1 $name? (0/1)"
+echo "Enter the secerete number 0 or 1 $name? (0/1)"
 
 read math
 
 if [[ $guess == $math ]]; then
-        echo "Great Job! $name"
+        echo "You may continue! $name"
 else
         echo "Better Luck Next Time $name"
 exit 1
@@ -36,9 +36,11 @@ sleep 5
 echo $f
 }
 sleep 5
-            echo "$name pick a number"
+            echo "$name pick a number from 1 to 10"
+sleep 10
 read a
-                    echo "$name pick another number"
+                    echo "$name pick a second number smaller than the first"
+sleep 10
 read b
         add  $a $b
                 echo "Thank you for playing.  Have a great Army day!"
