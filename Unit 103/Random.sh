@@ -18,7 +18,6 @@ fi
 add()
 {
 c=`expr $a + $b`
-c=`expr $a + $b`
 d=`expr $a - $b`
 e=`expr $a \* $b`
 f=`expr $a / $b`
