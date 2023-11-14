@@ -1,9 +1,6 @@
 #!/bin/bash
 
-echo "Welcom to the Game.  Please select your name:
-Luke
-Mark
-Pam"
+echo "What is your name?"
 
 read name
 
