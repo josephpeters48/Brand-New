@@ -16,9 +16,6 @@ read website
 website=$website
 }
 website
-website
-website
-website
 dig $website	1>>single.txt
 whois $website 1>>single.txt
 host $website 1>>single.txt
