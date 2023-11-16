@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ping www.espn.com
+ping 192.168.10.128
 
 while=true
 
