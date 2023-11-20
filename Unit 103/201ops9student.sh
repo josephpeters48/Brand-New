@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script: Ops 103 Class 09 Ops Challenge Solution
+# Script: Ops 201 Class 09 Ops Challenge Solution
 # Author: Joseph Peters
 # Purpose: DDOS
 # Lets create a while loop than runs a conditinal statment
