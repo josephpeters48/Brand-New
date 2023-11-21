@@ -1,7 +1,7 @@
 #!/bin/bash
 # Script: Ops 201 Class 09 Ops Challenge Solution
 # Author: Joseph Peters
-# Purpose: DDOS
+# Purpose: WHILE LOOP
 # Lets create a while loop than runs a conditinal statment
 #Ask the user for an input if they choose:
 # 1 then echo hello world
