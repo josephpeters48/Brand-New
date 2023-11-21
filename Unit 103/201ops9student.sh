@@ -9,17 +9,29 @@
 # 3 run ifconfig
 # else echo invalid entry
 
-echo "What is your favorite color"
+user=y
+while [ $user = y ]
+do
+echo "Choose from options 1, 2, or 3"
+echo "1. Hello world"
+echo "2. Ping a website or ip address:"
+echo "3. Run ifconfig"
 
-read color
-
-if [[ $color != "" ]]; then
-	echo "Hello World!"
-ping -c 3 www.google.com
+read input
+if [ $input = 1 ] 
+then echo "Hello World"
+elif [ $input = 2 ]
+then
+echo "Enter website or ip address to ping"
+read address
+ping -c 3 $address
+elif [ $input = 3 ] 
+then
 ifconfig
-
 else
-
 echo "Invalid Entry"
-
 fi
+echo "Do you want to play again:  Y/N"
+read user
+done
+echo "Good Work"
