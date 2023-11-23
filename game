@@ -1,6 +1,3 @@
-#This is just a fun text based adventure game that can be played in side the terminal still updating and expading this to make it more indpeth and more intresting uses random number genreation
-#to decide if certain events are effective or not we added some familar charchters to the game to make it more fun and enjoyable
-# Your challenge tonight is to write a basic adventure game using some of the  code provide below and using if/elif statments
 import os
 import random
 yes_no = ["yes", "no"]
@@ -99,8 +96,8 @@ while True:
             os.system("start \"\" https://www.youtube.com/watch?v=yu3iX6zxbm0")
     else:
         print("I didn't understand that.\n")
-​
-        #Write you code above this line
+
     play_again = input("Play again? (y/n): ")
     if play_again.lower() != "y":
         break
+Collapse
