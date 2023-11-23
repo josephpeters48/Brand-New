@@ -1,5 +1,7 @@
 import os
 import random
+
+from more_itertools import collapse
 yes_no = ["yes", "no"]
 directions = ["left", "right", "forward", "backward"]
  
@@ -100,4 +102,4 @@ while True:
     play_again = input("Play again? (y/n): ")
     if play_again.lower() != "y":
         break
-Collapse
+collapse
