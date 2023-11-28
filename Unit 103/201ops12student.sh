@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "How are you today? Please select how you are feeling:
+echo "How are you today? Please select option 1 or option 2:
 1 - Good
 2 - Bad"
 
@@ -10,6 +10,8 @@ case $feeling in
 
 	1)
 		feeling="Happy"
+  		think=$(curl -o index.html https://www.livehappy.com)"
+    		open index.html
 		;;
 
 	2)
