@@ -9,17 +9,17 @@ read feeling
 case $feeling in
 
 	1)
-		feeling="Good"
+		feeling="Happy"
 		;;
 
 	2)
-		feeling="Bad"
+		feeling="Sad"
 		joke="$(curl -s https://icanhazdadjoke.com)"
-;;
+        ;;
 
 esac
 
-if [[ $feeling = "Good" ]]; then
+if [[ $feeling = "Happy" ]]; then
 	echo "Glad you are $feeling today"
 else
 	echo "Sorry you are $feeling today; check this out!!!!! $joke"
