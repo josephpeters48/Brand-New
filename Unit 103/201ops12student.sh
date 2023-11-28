@@ -10,10 +10,10 @@ case $feeling in
 
 	1)
 		feeling="Happy"
-  		#think=$(curl -o index.html https://www.livehappy.com)"
-    	#open index.html
+  		think=$(curl -o index.html https://www.livehappy.com)"
+    	open index.html
       	#think=$(xdg-open https://www.livehappy.com)"
-		think="$(xdg-open https://www.redbubble.com/i/sticker/Buffalo-Sucks-Aqua-Orange-Miami-by-caknuck/29893737.EJUG5?ref_list_id=srp_result>  
+		#think="$(xdg-open https://www.redbubble.com/i/sticker/Buffalo-Sucks-Aqua-Orange-Miami-by-caknuck/29893737.EJUG5?ref_list_id=srp_result>  
   		;;
 
 	2)
