@@ -1,11 +1,11 @@
 import subprocess
 import os
-n="ls"
-a="whoami"
-b="ifconfig"
-os.system
-subprocess.run(n)
+a="lshw"
+b="whoami"
+c="ifconfig"
 os.system
 subprocess.run(a)
 os.system
 subprocess.run(b)
+os.system
+subprocess.run(c)
