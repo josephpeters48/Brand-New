@@ -30,7 +30,8 @@ else:
 #Write your code below this line 👇
 age = int(input("What is your current age? "))
 max = 100
-days = max* 365
-weeks = max * 52
-months = max * 12
+days_left = max - age
+days = 365 * days_left
+weeks = 52 * days_left
+months = 12 * days_left
 print(f"You have {days} days , {weeks} weeks, and {months} months left.")
