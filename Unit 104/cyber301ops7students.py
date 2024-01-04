@@ -9,6 +9,7 @@ magic = None
 count = 1
 
 while  magic != random_number:
+	print ("Too Low")
 	print ("Keep Guessing")
 	magic = int(input( "Pick a random number "))
 	magic == random.randint
