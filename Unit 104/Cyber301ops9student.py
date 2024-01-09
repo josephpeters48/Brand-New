@@ -1,4 +1,4 @@
-  GNU nano 6.2                             cyber301ops9student.py                                       
+                               
 # Your program should print each number from 1 to 100 in turn.
 
 # When the number is divisible by 3 then instead of printing the number it should print "Fizz".
@@ -11,6 +11,7 @@
 
 
 #Write your code below this row 👇
+
 import time
 for i in range(1,101):
   if(i%3==0 and i%5==0):
