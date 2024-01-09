@@ -1,2 +1,2 @@
 import requests
-input("what is your website?")
+import json
