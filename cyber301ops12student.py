@@ -2,7 +2,7 @@
 #code provide below and using if/elif statments
 
 yes_no = ["yes", "no"]
-directions = ["left", "right", "forward", "backward"]
+directions = ["north", "south", "east", "west"]
  
 # Introduction
 name = input("What is your name, adventurer?\n")
@@ -26,3 +26,19 @@ while response not in yes_no:
 response = ""
 
 # Use if else statment from here to take you on a journey and have fun with it
+while True:
+    print("Which direction would you like to go?:")
+    response = input("What direction do you move?\nleft/right/forward/backward\n")
+    
+    if response == "north":
+        print("You ran into a chicken in a condo made of peanuts what do you do?")
+        fight = input("fight the chicken y/n\n")
+        if  fight == "y":
+            print("Roll that beautiful bean footage to see if you roll higher that a 4 higher")
+            number = random.randint(1, 10)
+            if number >= 4:
+                print(f"you have killed the chicken with a roll of {number} and escaped the forest with a friendly rooster who goes by Floppy")
+                response = ""
+            else: print("Your roll did not achieve a 4 or better") 
+            quit()
+        else: print("run for your life")
