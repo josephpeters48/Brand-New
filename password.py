@@ -1,5 +1,6 @@
 import string
 import random
+print("Welcome to the PyPassword Generator!")
 len=int(input("Enter Length of password "))
 #lower=string.ascii_lowercase
 #upper=string.ascii_uppercase
