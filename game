@@ -25,7 +25,7 @@ while response not in yes_no:
  
 # Next part of game
 response = ""
-while True:
+while response not in directions:
     print("You can head any direction please choose:")
     response = input("What direction do you move?\nleft/right/forward/backward\n")
     # Start you Code below this line use and if/elif statment to take you an adventure in all directions
