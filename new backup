@@ -1,28 +1,8 @@
-#from datetime import datetime
-#from pathlib import Path
-#import zipfile
-import os
-import shutil
-import schedule
-import time
+from datetime import datetime
+from pathlib import Path
+import zipfile
 
-def backup(src, dst):
-    "/home/joseph/Desktop"
-    "/home/joseph/Pictures"
 
-def schedule_backup():
-    time = "19:52"  # schedule time in 24h format
-    schedule.every().day.at(time).do(backup, source, destination)
-    print(f"Backup scheduled for {time} every day")
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
-
-if __name__ == "__main__":
-    source = "/home/joseph/Desktop"
-    destination = "/home/joseph/Pictures"
-    schedule_backup()
-'''
 OBJECT_TO_BACKUP = '/home/joseph/Desktop'  # The file or directory to backup
 BACKUP_DIRECTORY = '/home/joseph/Pictures'  # The location to store the backups in
 MAX_BACKUP_AMOUNT = 5  # The maximum amount of backups to have in BACKUP_DIRECTORY
@@ -68,4 +48,3 @@ elif object_to_backup_path.is_dir():
             )
 # Close the created zip file
 zip_file.close()
-'''
